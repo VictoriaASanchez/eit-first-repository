@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hello world!</h1>
+        <nav>
+            <ul>
+                <a href=""><ul>Ir a educación IT</ul></a>
+                <a href=""><ul>Sobre nosotros</ul></a>
+                <a href=""><ul>Nuestros clientes</ul></a>
+                <a href=""><ul>Contáctanos</ul></a>
+                <a href=""><ul>Teléfono</ul></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe atque dolorum nulla eaque consequatur consectetur aut voluptatem modi, beatae praesentium nobis recusandae porro fugit eligendi cumque eos optio temporibus dolore.</p>
+    </main>
+
+    <section>
+        <h2>Lorem, ipsum dolor sit amet</h2>
+        <img src="https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg" alt="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe atque dolorum nulla eaque consequatur consectetur aut voluptatem modi">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe atque dolorum nulla eaque consequatur consectetur aut voluptatem modi, beatae praesentium nobis recusandae porro fugit eligendi cumque eos optio temporibus dolore.</p>
+    </section>
+
+    <article>
+        <ul>
+            <li>Lorem ipsum dolor sit</li>
+            <li>Lorem ipsum dolor sit</li>
+            <li>Lorem ipsum dolor sit</li>
+        </ul>
+    </article>
+
+    <br>
+    <section>
+        <form action="" method="">
+            <fieldset> <!-- Efecto de foco: Mismo for y id // Otra forma consiste en anidar el input dentro del label-->
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" name="nombre" required>
+                <span>*</span>
+                <label for="apellido">Apellido</label>
+                <input id="apellido" type="text" name="apellido" required>
+                <span>*</span>
+                <label for="edad">Edad</label>
+                <input id="edad" type="number" min="18" max="90" name="edad" required>
+                <span>*</span>
+                <label>Email
+                    <input type="email" name="email" required>
+                    <span>*</span>
+                </label>
+                <label>Contraseña
+                    <input type="password" name="contraseña" pattern="^(?=.*\d)(?=.*[az])(?=.*[AZ])(?!.*\s).*$" required>
+                    <span>*</span>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label><input type="checkbox" name="Preferencias" value="bicicleta">Bicicleta</label>
+                <label><input type="checkbox" name="Preferencias" value="caminar">Caminar</label>
+                <label><input type="checkbox" name="Preferencias" value="correr">Correr</label>
+            </fieldset>
+
+            <fieldset> <!-- El atributo "name" debe ser el mismo para que al elegir una opción, se desabilite la otra-->
+                <legend>Estado civil</legend>
+                <input type="radio" value="casado" name="estado">Casado
+                <input type="radio" value="soltero" name="estado">Soltero
+            </fieldset>
+
+            <select name="paises" multiple>
+                <option value="">Elegir</option>
+                <option value="argentina">Argentina</option>
+                <option value="paraguay">Paraguay</option>
+                <option value="uruguay">Uruguay</option>
+            </select>
+
+            <input type="file" multiple>
+
+            <textarea name="descripcion" cols="30" rows="10"></textarea>
+
+            <button>Enviar</button>
+        </form>
+    </section>
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+@media only screen and (max-width: 480px) {
+    section img {
+      max-width: 100%;
+      height: 290px;
+      object-fit: cover;
+    }
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 33%;
+}
+
+h1 {
+    font-family: 'Lucida Sans';
+    font-size: 3rem;
+    font-weight: 100;
+    letter-spacing: 18px;
+}
+
+h2 {
+    font-family: 'Lucida Sans';
+    font-weight: 100;
+    letter-spacing: 8px;
+}
+
+h1, h2 {
+    color: #BB5397;
+    
+}
+
+p {
+    margin-top: 0;
+    line-height: 24px;
+    color: #3B63A6;
+}
+
+.hotel-pop, .hotel-animal, .hotel-caribbean {
+    float: right;
+    height: 290px;
+    margin-left: 12px;
+}
+
+.hotel-caribbean {
+    float: left;
+    margin-right: 12px;
+    margin-left: 0;
+}
+
+.mickey-minnie {
+    width: 98vw;
+}

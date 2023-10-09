@@ -1,0 +1,137 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap'); */
+
+* { /* Afecta a todos los elementos */
+    /* box-sizing: border-box; */ /* El padding se ajusta al ancho establecido del contenido */
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0;
+    margin-top: 4.5rem;
+    box-sizing: content-box;
+}
+
+/* Herencia > Aplica el estilo solo cuando la lista desordenada está dentro del nav. No afecta al nav. Lo afectaría en el caso de: nav, ul */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 16px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+header a h1 {
+    color: black
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+p, a, li {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+section {
+    padding: 1rem 5%;
+    margin-bottom: 64px;
+}
+
+p {
+    text-align: justify;
+    line-height: 26px;
+}
+
+.caja1 {
+    display: flex;
+}
+
+.caja2 {
+    margin-left: 16px;
+}
+
+.container-image {
+    border: 4px solid blue;
+    height: 300px;
+}
+
+.paisaje {
+    height: 100%;
+    border-width: 4px;
+    border-color: white;
+    border-style: inset inset none none;
+}
+
+.header-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid grey;
+    background-color: rgb(195, 219, 238);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.clientes {
+    background-color: rgb(195, 219, 238);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.galeria{
+    text-align: center;
+}
+
+.image {
+    float: left;
+    margin-right: 24px;
+    margin-bottom: 16px;
+}
+
+.container-gallery {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.image-gallery {
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+    margin: 8px;
+}
+
+.nosotros-banner {
+    background-image: url("https://images.unsplash.com/photo-1454372182658-c712e4c5a1db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    height: 86vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.nosotros-banner h2 {
+    font-size: 4rem;
+    color: rgb(226, 226, 226);
+    text-align: center;
+}

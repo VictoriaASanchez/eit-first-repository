@@ -1,0 +1,73 @@
+@media only screen and (max-width: 480px) {
+    img {
+      max-width: 100%;
+      object-fit: cover;
+    }
+}
+
+/* Las tipografías utilizadas son:
+
+- 'Lucida Sans Unicode', 'Lucida Grande', sans-serif
+- Impact, Charcoal, sans-serif
+- Arial, Gadget, sans-serif */
+
+body {
+    background-color: #273238;
+    color: white;
+    margin-top: 3.5rem;
+}
+
+header {
+    background-color: white;
+}
+
+p {
+    font-family: 'Lucida Sans Unicode';
+    line-height: 24px;
+    font-weight: 500;
+    color: gainsboro;
+    text-align: justify;
+}
+
+h1 {
+    font-family: Impact, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    color: #698593;
+}
+
+h2, h3 {
+    font-family: 'Arial Black', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    display: inline
+}
+
+img {
+    border: 4px solid;
+}
+
+.aspiradora {
+    color: #E6CBBF;
+}
+
+.celulares {
+    color: #A1C1CB;
+}
+
+.consolas {
+    color: #BCBDBF;
+}
+
+.home {
+    color: #8E94A1;
+}
+
+.border-home {
+    border-color: #8E94A1;
+}
+
+.televisores {
+    color: #B2B2AA;
+}
+

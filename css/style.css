@@ -1,0 +1,43 @@
+* { /* Afecta a todos los elementos */
+    box-sizing: border-box; /* El padding se ajusta al ancho establecido del contenido */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    font-size: 24px;
+}
+
+/* header {
+    width: 400px;
+    background-color: aquamarine;
+    padding: 1em
+} */
+
+
+/* Herencia > Aplica el estilo solo cuando la lista desordenada está dentro del nav. No afecta al nav. Lo afectaría en el caso de: nav, ul */
+nav ul {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: grey;
+    text-decoration: none;
+}
+
+
+main {
+    width: 400px;
+    background-color: blueviolet; 
+}
+
+article ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 2px solid blue;
+    border-left: 6px dashed pink;
+}
+
+label {
+    display: block;
+}
