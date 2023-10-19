@@ -1,0 +1,56 @@
+img {
+    width: 100%;
+}
+
+h2 {
+    font-family: Verdana;
+    font-size: 2rem;
+    color: #775548;
+}
+
+h3 {
+    font-family: Verdana;
+    background-color: #775548;
+    color: #E1D4CF;
+}
+
+li, p {
+    font-family: sans-serif;
+}
+
+header ul li {
+    font-family: Verdana;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+header ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, p {
+    color: #775548;
+}
+
+.parrafo-bold {
+    font-weight: bold;
+}
+
+a {
+    font-weight: bold;
+    color: #EF6D24;
+}
+
+.la-nacion {
+    color: #3AABC4;
+}
+
+.pagina-12 {
+    color: #EF4B51;
+}
+
+.title-yellow {
+    color: #D8B03B;
+}
